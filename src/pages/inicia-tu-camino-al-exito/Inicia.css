@@ -1,0 +1,10 @@
+@import '../../components/section/Section.css';
+@import '../../components/card/TextCard.css';
+
+.cont-form{
+    margin-top: 6rem;
+}
+
+.font-label{
+    font-size: 1.6rem;
+}

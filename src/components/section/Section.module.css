@@ -1,0 +1,42 @@
+.container{
+  display:flex;  
+  flex-direction: column;
+  border-bottom: solid 1px;
+  border-color: #6700ff;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  margin:0;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+    color: #320093;
+    font-size: 4rem;
+  }
+.image {
+    width:50%;
+    margin: 2rem;
+}
+.button{
+    width: 40vw;
+    color:#ffffff;
+    font-size: 2rem;;
+    background-color: #320093;
+    border-color: #320093;
+    border-radius: 30px;
+}
+   
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .image{
+      width: 30%;
+      heigth: 25%;
+    }
+    .button{
+      font-size: 1rem;;
+     }
+
+    }
+    

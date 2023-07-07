@@ -1,0 +1,25 @@
+.cont-footer{
+    display:flex;
+    justify-content: space-between;
+    width: 95vw;
+    margin: 1rem;
+}
+.cont-logos {
+    display: flex;
+}
+.txt-footer-heading {
+    color: var(--strong-purple);
+    font-size: 1.2rem;
+}
+.txt-footer-line {
+    color: var(--light-purple);
+    font-size: 0.8rem;
+    margin:0px;
+}
+.cont-address{
+    width:20%;
+}
+.navbar-icon-footer{
+    width: 2rem;
+    margin:1rem
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Bienvenidos",
+        "imageSection": "/images/woman-working-office.jpg",
+        "buttonText": "Conócenos",
+        "linkPage":"/bienvenidos"
+    },
+    {
+        "title": "ADN Wintek",
+        "imageSection": "/images/purple-dna.jpg",
+        "buttonText": "Descúbrelo",
+        "linkPage":"/adn-wintek"
+    },
+    {
+        "title": "Transformamos tu empresa",
+        "imageSection": "/images/closeup-business-man-networking-smartphone.jpg",
+        "buttonText": "¿Cómo lo hacemos?",
+        "linkPage":"/transformamos-tu-empresa"
+    },
+    {
+        "title": "Compartimos conocimiento",
+        "imageSection": "/images/crecimiento-empresarial.jpg",
+        "buttonText": "+ info",
+        "linkPage":"/compartimos-conocimiento"
+    },
+    {
+        "title": "Inicia tu camino al éxito",
+        "imageSection": "/images/bearded-male-dressed-suit-with-virtual-reality-glasses-his-head.jpg",
+        "buttonText": "Contáctanos",
+        "linkPage":"/inicia-tu-camino-al-exito"
+    },
+    {
+        "title": "VIVE LA EXPERIENCIA WINTEK",
+        "imageSection": "/images/woman-working-office.jpg",
+        "buttonText": "Únete",
+        "linkPage":"/vive-la-experiencia-wintek"
+    }
+
+]

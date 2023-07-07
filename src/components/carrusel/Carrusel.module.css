@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Everett";
+  src: url("../../../src/styles/font/TWKEverett-Regular.otf");
+  font-weight:400;
+} 
+.container{
+  width:100%;
+  padding: 2%;
+}
+.imageCarousel{
+    width:100%;
+    height: 400px;
+}
+.text{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+  @media only screen and (max-width : 900px) {
+  .image{
+      width:400px;
+      height:200px;
+  }
+  .text{
+    font-family: "Everett";
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  }

@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin:0.8rem;
+}
+.brand{
+    display: flex
+}
+.button{
+    margin: 0 0.8rem;
+}
+.options{
+    display: flex;
+    justify-content: flex-end;
+}
+  
+@media only screen and (max-width : 900px) {
+
+}
