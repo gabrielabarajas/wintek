@@ -29,6 +29,7 @@ export async function getStaticProps({ params }) {
   const article = await getArticle(params.slug);
   return {
     props: { article },
+    revalidate: 10,
   };
 }
 
