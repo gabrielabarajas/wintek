@@ -1,27 +1,33 @@
 import styles from './Footer.module.css';
+import Image from 'next/image'
 import { Navbar } from 'react-bootstrap';
+import fbImage from '../../../public/images/fb-icono.png';
+import lnImage from '../../../public/images/in-icono.png';
+import inImage from '../../../public/images/Insta-icono.png';
 
 function Footer() {
   return (
     <>
-    <div className="cont-footer">
-      <div className='cont-address'>
-        <p className='txt-footer-heading'>Wintek Consulting Group</p>
-        <p className='txt-footer-line'>Provenza 310</p>
-        <p className='txt-footer-line'>Barcelona, España</p>
-        <p className='txt-footer-line'>08037</p>
+    <div className={styles.container}>
+
+      <div className={styles.adress}>
+        <p className={`title ${styles.textHeading}`}>Wintek Consulting Group</p>
+        <p className={`text ${styles.textLine}`}>Provenza 310</p>
+        <p className={`text ${styles.textLine}`}>Barcelona, España</p>
+        <p className={`text ${styles.textLine}`}>08037</p>
       </div>
-      <div className="cont-contact">
-        <p className='txt-footer-line'>info@wintek.consulting</p>
-        <div className="cont-logos">
+
+      <div className={styles.containerContacto}>
+        <p className={styles.textLine}>info@wintek.consulting</p>
+        <div className={styles.logosSocial}>
           <Navbar.Brand href="https://www.linkedin.com/">
-            <img className= 'navbar-icon-footer' src="/src/images/in-icono.png" alt="logo linkedin" />{' '}
+            <Image className={styles.iconSocial} src={lnImage} alt="logo linkedin" width={40} height={40} />
           </Navbar.Brand>
           <Navbar.Brand href="https://www.facebook.com/">
-            <img className= 'navbar-icon-footer' src="/src/images/fb-icono.png" alt="logo facebook"/>{' '}
+            <Image className={styles.iconSocial} src={fbImage} alt="logo facebook" width={40} height={40}/>
           </Navbar.Brand>
           <Navbar.Brand href="https://www.instagram.com/">
-            <img className= 'navbar-icon-footer' src="/src/images/Insta-icono.png" alt="logo instagram"/>{' '}
+            <Image className={styles.iconSocial} src={inImage} alt="logo instagram" width={40} height={40}/>
           </Navbar.Brand>
         </div>
       </div>

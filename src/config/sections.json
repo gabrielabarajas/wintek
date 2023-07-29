@@ -1,39 +1,45 @@
 [
     {
-        "title": "Bienvenidos",
+        "title": "BIENVENIDOS",
         "imageSection": "/images/woman-working-office.jpg",
         "buttonText": "Conócenos",
-        "linkPage":"/bienvenidos"
+        "linkPage":"/bienvenidos",
+        "fewWords": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-        "title": "ADN Wintek",
+        "title": "ADN WINTEK",
         "imageSection": "/images/purple-dna.jpg",
         "buttonText": "Descúbrelo",
-        "linkPage":"/adn-wintek"
+        "linkPage":"/adn-wintek",
+        "fewWords": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
-        "title": "Transformamos tu empresa",
+        "title": "TRANSFORMAMOS TU EMPRESA",
         "imageSection": "/images/closeup-business-man-networking-smartphone.jpg",
         "buttonText": "¿Cómo lo hacemos?",
-        "linkPage":"/transformamos-tu-empresa"
+        "linkPage":"/transformamos-tu-empresa",
+        "fewWords": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-        "title": "Compartimos conocimiento",
+        "title": "COMPARTIMOS CONOCIMIENTO",
         "imageSection": "/images/crecimiento-empresarial.jpg",
         "buttonText": "+ info",
-        "linkPage":"/compartimos-conocimiento"
+        "linkPage":"/compartimos-conocimiento",
+        "fewWords": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     },
     {
-        "title": "Inicia tu camino al éxito",
+        "title": "INICIA TU CAMBIO AL ÉXITO",
         "imageSection": "/images/bearded-male-dressed-suit-with-virtual-reality-glasses-his-head.jpg",
         "buttonText": "Contáctanos",
-        "linkPage":"/inicia-tu-camino-al-exito"
+        "linkPage":"/inicia-tu-camino-al-exito",
+        "fewWords": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
         "title": "VIVE LA EXPERIENCIA WINTEK",
         "imageSection": "/images/woman-working-office.jpg",
         "buttonText": "Únete",
-        "linkPage":"/vive-la-experiencia-wintek"
+        "linkPage":"/vive-la-experiencia-wintek",
+        "fewWords": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }
 
 ]

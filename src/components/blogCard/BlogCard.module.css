@@ -1,0 +1,31 @@
+.title{
+   color: var(--lightPurpleW) !important;
+   font-size: 1.4rem;
+   font-weight: 700;
+}
+.mediumText{
+   color: var(--greenOne);
+   font-size: 1rem;
+   font-weight: 500;
+}
+.smallText{
+   color: var(--darkGrey);
+   font-size: 0.7rem;
+   font-weight: 300;
+}
+.button{
+   width: 180px;
+   height:40px;
+   line-height: 1.8rem;
+   color: var(--greenOne);
+   font-size: 1.2rem;
+   background-color: var(--lightPurpleW);
+   border-color: var(--lightPurpleW);
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+}
+.cardStyle{ 
+   margin: 1.6rem;
+}

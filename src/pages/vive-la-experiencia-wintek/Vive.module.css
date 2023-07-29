@@ -1,0 +1,47 @@
+.titlePage{
+    color:var(--lightPurpleW);
+}
+.textLabelStyle{
+    width: 11rem;
+    color: var(--greenOne);
+    background-color: var(--lightPurpleW);
+}
+.containerSection{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:center;
+    border: none;
+}
+.iconSection{
+    width: 10rem;
+    height: 10rem;
+    padding:1rem;
+}
+.button{
+    width: 20%;
+    color: var( --greenOne);
+    font-size: 1.3rem;;
+    background-color: var(--lightPurpleW);
+    border-color: var(--lightPurpleW);
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .text{
+      font-size: 1.2rem;
+    }
+    .containerTextLabel{
+        display:flex;
+        width: 100%;
+    }
+    .textLabelStyle{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

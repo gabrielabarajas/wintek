@@ -1,0 +1,12 @@
+.titlePage{
+  color:var(--lightPurpleW);
+}
+
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .titlePage{
+      font-size: 2rem;
+    }
+}

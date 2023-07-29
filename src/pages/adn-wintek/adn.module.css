@@ -1,0 +1,47 @@
+.titlePage{
+    color:var(--lightPurpleW);
+  }
+.containerSection{
+    margin: 2rem 0;
+    border: none;
+}
+.cardBody{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content:center;
+    border: none !important;
+}
+.iconAdn{
+    width: 8rem;
+    height: 8rem;
+    padding:1rem;
+}
+.imgSemblanzas{
+    width: 45rem;
+    height: 60rem;
+}
+@media only screen and (max-width : 900px) {
+    .titlePage{
+        font-size: 2rem;
+      }
+    .containerSection{
+    margin: 2rem 0;
+    border: none;
+    }
+    .title{
+      font-size: 2rem;
+    }
+    .text{
+        font-size: 1.2rem;
+    }
+    .iconAdn{
+        width: 4rem;
+        height: 4rem;
+        padding:0.6rem;
+    }
+    .imgSemblanzas{
+        width: 280px;
+        height: 420px;
+    }
+}
