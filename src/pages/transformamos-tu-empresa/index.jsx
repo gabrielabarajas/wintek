@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 function transformamos() {
   return (
-    <div>
+    <>
         <NavWintek/>
         <div className="container">
         <p className={`title ${styles.titlePage}`}>TRANSFORMAMOS TU EMPRESA</p>
@@ -30,10 +30,9 @@ function transformamos() {
             <p className={`text ${styles.text}`}>Estrategia 360º</p>
         </Card.Body>
         </Card>
-
         </div>
          <Footer/>
-    </div>
+    </>
   )
 }
 

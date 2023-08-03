@@ -10,7 +10,7 @@ import styles from './Inicia.module.css';
 
 function Inicia() {
   return (
-    <div>
+    <>
         <NavWintek/>
         <div className="container">
           <p className={`title ${styles.titlePage}`}>INICIA TU CAMINO AL ÉXITO</p>
@@ -61,18 +61,12 @@ function Inicia() {
                 <Button className= {styles.button} type="submit">Enviar</Button>
               </Col>
             </Form.Group>
-
         </Card.Body>
         </Card>
-
-    
-
-
-
         </div>
          <Footer/>
 
-    </div>
+    </>
   )
 }
 

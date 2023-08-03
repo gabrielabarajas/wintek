@@ -1,3 +1,13 @@
+.containerSection{
+  margin: 2rem 0;
+  border: none;
+}
+.cardBody{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content:center;
+}
 .titlePage{
   color:var(--lightPurpleW);
 }
