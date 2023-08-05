@@ -65,7 +65,6 @@ function Inicia() {
         </Card>
         </div>
          <Footer/>
-
     </>
   )
 }

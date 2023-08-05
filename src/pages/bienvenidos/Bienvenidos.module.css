@@ -1,22 +1,35 @@
+.titlePage{
+  color:var(--lightPurpleW);
+}
 .containerSection{
   margin: 2rem 0;
-  border: none;
+  border-width: 0;
 }
 .cardBody{
   display:flex;
   flex-direction: column;
   align-items: center;
   align-content:center;
-}
-.titlePage{
-  color:var(--lightPurpleW);
+  border: none !important;
 }
 
 @media only screen and (max-width : 900px) {
     .title{
       font-size: 2rem;
     }
+    .containerSection{
+      margin: 2rem 0;
+      border: none;
+      }
     .titlePage{
       font-size: 2rem;
     }
+    .text{
+      font-size: 1.2rem;
+  }
+  .iconSection{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
 }

@@ -1,13 +1,19 @@
 import Footer from "../../components/footer/Footer";
 import NavWintek from "../../components/navbar/Navbar";
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 import articleImage from '../../../public/images/programming-background-with-person-working-with-codes-computer.jpg';
 import styles from './article.module.css'
 import { getArticle, getSlugs } from '../../utils/services';
 import { Body } from '../../utils/cms'
 
 function Article({ article }) {
-    console.log(article)
+  const router = useRouter();
+
+  if(router.isFallback) {
+    return <div>Loading</div>
+  }
+
   return (
     <>
     <NavWintek/>
@@ -37,6 +43,6 @@ export async function getStaticPaths() {
     const paths = await getSlugs();
     return {
       paths: paths.map(({ slug }) => ({ params: { slug: slug.current } })),
-      fallback: false,
+      fallback: true,
     };
   }

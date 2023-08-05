@@ -7,12 +7,12 @@ import wellcomeImage from '../../../public/images/Julio&Veronica (53 of 62).jpg'
 
 function Bienvenidos() {
   return (
-    <>
+    <div>
         <NavWintek/>
         <div className="container">
-        <p className={`title ${styles.titlePage}`}>AVANCEMOS JUNTOS HACIA EL ÉXITO</p>
-        <Card  className={styles.containerSection}>
-        <Card.Body className={styles.cardBody}>
+          <p className={`title ${styles.titlePage}`}>AVANCEMOS JUNTOS HACIA EL ÉXITO</p>
+          <Card  className={styles.containerSection}>
+          <Card.Body className={styles.cardBody}>
             <Image src={wellcomeImage} className={styles.iconSection} width={650} height={450} alt="imagen icono"/>
             <p className={`text ${styles.text}`}>Todo comenzó con el propósito de transformar las organizaciones de nuestros clientes a través de soluciones tecnológicas de vanguardia. La pasión por la tecnología y su potencial para impulsar el crecimiento empresarial nos llevó a dar un salto de fe y fundar Wintek Consulting. </p>
             <p className={`text ${styles.text}`}>Atrás quedan años de experiencia trabajando en el campo de la consultoría, donde apreciamos de primera mano cómo las compañías luchaban por mantenerse al día con el vertiginoso ritmo de la revolución digital. Fue en ese momento de reflexión que como socios fundadores tomamos la decisión de reunir a un equipo de expertos apasionados por la tecnología y con una amplia experiencia en implementaciones de SAP R/3 y S4/Hana</p>
@@ -26,7 +26,7 @@ function Bienvenidos() {
         </Card>
         </div>
          <Footer/>
-    </>
+    </div>
   )
 }
 
