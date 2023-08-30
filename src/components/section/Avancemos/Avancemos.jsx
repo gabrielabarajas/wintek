@@ -20,7 +20,7 @@ function Avancemos() {
       </div>
       <div className={styles.imagesSection}>
           <Image className={styles.image} src={imageAvancemos} width={"auto"} height={"auto"} alt='image for the section'/>
-          <Image className="logo" src={Logo} width={400} height={200} alt='image for the section'/>
+          <Image className={styles.logo}  src={Logo} width={400} height={200} alt='image for the section'/>
       </div>
     </div>
     </>

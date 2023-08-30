@@ -6,22 +6,23 @@ import texts from '../../../config/adnWintekTexts.json';
 import React from 'react';
 
 function AdnWintek() {
-  const textObject =texts[0];
+  const textObject = texts;
   
   return (
     <>
-    <p className={`title ${styles.title}`}>{textObject.title}</p>
+    <p className={`title ${styles.title}`}>{textObject[0].title}</p>
     <div className={styles.containerSection}>
         <div className={styles.imagesSection}>
           <Image className={styles.image} src={imageAdnWintek} width={"auto"} height={"auto"} alt='image for the section'/>
-          <Image className="logo" src={Logo} width={400} height={200} alt='image´ section'/>
+          <Image className={styles.logo} src={Logo} width={400} height={200} alt='image´ section'/>
         </div>
         <div className={styles.textSection}>
-          <p className={`text ${styles.text}`}>{textObject.textOne}</p>
-          <p className={`text ${styles.text}`}>{textObject.textTwo}</p>
-          <p className={`text ${styles.text}`}>{textObject.textThree}</p>
-          <p className={`text ${styles.text}`}>{textObject.textFour}</p>
-          <p className={`text ${styles.text}`}>{textObject.textFive}</p>
+     
+          <p className={`text ${styles.text}`}>{textObject[0].text}</p>
+          <p className={`text ${styles.text}`}>{textObject[1].text}</p>
+          <p className={`text ${styles.text}`}>{textObject[2].text}</p>
+          <p className={`text ${styles.text}`}>{textObject[3].text}</p>
+          <p className={`text ${styles.text}`}>{textObject[4].text}</p>
         </div>
     </div>
     </>

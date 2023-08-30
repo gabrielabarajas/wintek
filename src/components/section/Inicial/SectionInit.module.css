@@ -25,21 +25,31 @@
   width:100%;
 }
 .logo{
+  margin: 1rem;
   width:150px;
   height: 50px;
 }
      
-  @media only screen and (max-width : 900px) {
-      .title{
-        font-size: 2rem;
-      }
-      .text{
-        font-size: 1.2rem;
-      }
-      .image {
-        width: 320px;
-        height: 220px;
-    }
-  
+@media only screen and (max-width : 900px) {
+  .title{
+    font-size: 2rem;
   }
-      
+  .text{
+    font-size: 1.2rem;
+  }
+  .imagesSection{
+    width: 100%;
+  }
+  .image {
+    height:220px;
+  }
+  .logo{
+    margin-top:10px;
+    width:100px;
+    height: 35px;
+  }
+  .containerSection{
+    flex-direction: column;
+    align-items: center;
+  }
+}
