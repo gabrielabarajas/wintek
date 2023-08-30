@@ -1,0 +1,19 @@
+[
+    {
+    "image": "/../../public/images/servicio1.png",
+    "text": "Gestión de Proyectos SAP"
+    },
+    {
+    "image": "/../../public/images/servicio2.png",
+    "text": "Implementación y Mentoring de módulos financieros en roll outs internacionales."
+    },
+    {
+    "image": "/../../public/images/servicio3.png",
+    "text": "Mentoring en módulos financieros en S/4HANA"
+    },
+    {
+    "image": "/../../public/images/servicio4.png",
+    "text": "Formación personalizada en módulos financieros para equipos internos y usuarios finales"
+    }
+
+]

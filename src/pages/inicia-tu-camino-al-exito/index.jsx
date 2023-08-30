@@ -7,8 +7,24 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import styles from './Inicia.module.css';
+import { createContact } from '../../utils/server/contacts';
+import { useEffect } from 'react';
 
 function Inicia() {
+    useEffect(() => {
+      /* createContact({
+        email: 'marc@gmail.com',
+        name: 'Marc',
+        phone: '6745648'
+      })*/ 
+    }, [])
+
+
+    const onSubmit = (values) => {
+      
+      createContact(values)
+    }
+
   return (
     <>
         <NavWintek/>
@@ -19,7 +35,7 @@ function Inicia() {
             <p className={`text ${styles.text}`}> Puedes hacer la mejor transformación digital para tu empresa, ahora.</p> 
             <p className={`text ${styles.text}`}> Solo compártenos tus datos y una breve descripción de lo que necesitas para hacer despegar tu compañía. </p> 
             <p className={`text ${styles.text}`}>A la brevedad nos pondremos en contacto contigo.</p> 
-
+        <form onSubmit={onSubmit}>
             <InputGroup className="mb-3">
               <InputGroup.Text className={styles.textLabelStyle} >Nombre</InputGroup.Text>
               <Form.Control classname="w-50" type="text" aria-label="Nombre" />
@@ -61,6 +77,7 @@ function Inicia() {
                 <Button className= {styles.button} type="submit">Enviar</Button>
               </Col>
             </Form.Group>
+        </form>
         </Card.Body>
         </Card>
         </div>
