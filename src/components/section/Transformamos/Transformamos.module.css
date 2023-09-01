@@ -1,27 +1,22 @@
 .containerSection{
     display: flex;
+    flex-direction: column;
     align-items:center;
     margin:1.4rem;
   }
+  .cardsSection{
+    display: flex;
+  }
   .title{
-    color: #b76ff0;
+    color: #545454;
     display:flex;
     margin:2rem;
   }
   .text{
     color: #545454;
   }
-  .image {
-     width: 400px;
-     height: 550px;
-     margin: 2rem;
-  }
-  .imagesSection{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
+
+  
   @media only screen and (max-width : 900px) {
       .title{
         font-size: 2rem;

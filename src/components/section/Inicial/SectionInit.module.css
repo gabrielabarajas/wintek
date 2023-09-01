@@ -41,7 +41,8 @@
     width: 100%;
   }
   .image {
-    height:220px;
+    width: 100%;
+    height:620px;
   }
   .logo{
     margin-top:10px;

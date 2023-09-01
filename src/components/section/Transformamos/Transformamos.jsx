@@ -10,11 +10,13 @@ function Transformamos() {
   console.log(textObject);
   return (
     <>
-    <p className={`title ${styles.title}`}>{textObject.title}</p>
+    <p className={`title ${styles.title}`}>{textObject[0].title}</p>
     <div className={styles.containerSection}>
+    <div className={styles.cardsSection}>
       {
         textObject.map((text, index) => <TransformamosCard key={index} {...text}/>)
        }
+    </div>
       <Image className="logo" src={Logo} width={400} height={200} alt='image´ section'/>
     </div>
     </>

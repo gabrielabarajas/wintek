@@ -6,6 +6,9 @@ import SectionInit from '../components/section/Inicial/SectionInit';
 import Avancemos from '../components/section/Avancemos/Avancemos';
 import Transformamos from '../components/section/Transformamos/Transformamos';
 import AdnWintek from '../components/section/Adn/AdnWintek';
+import Inicia from '@/components/section/Inicia/Inicia';
+import Vive from '@/components/section/Vive/Vive';
+import Contacta from '@/components/section/Contacta/Contacta';
 
 function Home() {
   return (
@@ -14,8 +17,11 @@ function Home() {
         {/*{sections.map((section, index) => <Section key={index} {...section} />)}*/}
         <SectionInit/>
         <Avancemos/>
-        <AdnWintek/> 
+        <AdnWintek/>
         <Transformamos/>
+        <Inicia/>
+        <Vive/>
+        <Contacta/>
         <Footer/>
       </div>
     </>

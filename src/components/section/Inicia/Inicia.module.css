@@ -1,0 +1,61 @@
+.containerSection{
+    display: flex;
+    flex-direction: row-reverse;
+    margin:1.4rem;
+  }
+  .title{
+    color: #545454;
+    display:flex;
+    margin:2rem;
+  }
+  .subtitle{
+    color: #545454;
+    font-size: 2rem;
+  }
+    .text{
+    color: #545454;
+    font-size: 22px;
+  }
+  .image {
+     width: 500px;
+     height: 400px;
+  }
+    .imagesSection{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  .logo{
+    margin: 1rem;
+    width:150px;
+    height: 50px;
+  }
+  .textSection{
+    margin: 1rem;
+  }
+  .adnImage{
+    width:100px;
+    height: 40px;
+  }
+  @media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
+    }
+    .imagesSection{
+      width: 100%;
+    }
+    .image {
+      width: 100%;
+      height: 825px;
+    }
+    .logo{
+      margin-top:10px;
+      width:100px;
+      height: 35px;
+    }
+    .containerSection{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
