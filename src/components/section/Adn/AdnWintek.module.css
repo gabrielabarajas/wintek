@@ -16,12 +16,22 @@
      width: 400px;
      height: 550px;
   }
-    .imagesSection{
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
+
+  .adnImage {
+    object-fit: contain
+  }
+
+  .imageContainer {
+    width: 80px;
+    height: 75px;
+    position: relative;
+  }
+  .imagesSection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
   .logo{
     margin: 1rem;
     width:150px;

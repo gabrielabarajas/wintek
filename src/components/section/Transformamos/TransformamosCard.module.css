@@ -1,0 +1,12 @@
+.wrapper {
+    flex: 1;
+}
+
+.wrapper :global(.card) {
+    align-items: center;
+    height: 100%;
+}
+
+.wrapper :global(.card-text) {
+    word-break: all;
+}

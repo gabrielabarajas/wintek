@@ -1,21 +1,21 @@
 [
     {
     "title":"Transformamos tu empresa",
-    "image": "/../../public/images/servicio1.png",
+    "image": "/images/servicio1.png",
     "text": "Gestión de Proyectos SAP"
     },
     {
-    "image": "/../../public/images/servicio2.png",
+    "image": "/images/servicio2.png",
     "title":"Transformamos tu empresa",
     "text": "Implementación y Mentoring de módulos financieros en roll outs internacionales."
     },
     {
-    "image": "/../../public/images/servicio3.png",
+    "image": "/images/servicio3.png",
     "title":"Transformamos tu empresa",
     "text": "Mentoring en módulos financieros en S/4HANA"
     },
     {
-    "image": "/../../public/images/servicio4.png",
+    "image": "/images/servicio4.png",
     "title":"Transformamos tu empresa",
     "text": "Formación personalizada en módulos financieros para equipos internos y usuarios finales"
     }

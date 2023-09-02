@@ -19,24 +19,34 @@ function AdnWintek() {
         </div>
         <div className={styles.textSection}>
           <div className={styles.adnImgTxt}>
-            <Image className={styles.adnImage} src={textObject[0].image} width={200} height={100} alt='adn image'/>
+          <span className={styles.imageContainer}>
+            <Image className={styles.adnImage} fill src={textObject[0].image} alt='adn image'/>
+          </span>         
             <p className={`text ${styles.text}`}>{textObject[0].text}</p>
             <span class={styles.line}></span>
           </div>
           <div className={styles.adnImgTxt}>
-            <Image className={styles.adnImage} src={textObject[1].image} width={200} height={100} alt='adn image'/>
+          <span className={styles.imageContainer}>
+            <Image className={styles.adnImage} fill src={textObject[1].image} alt='adn image'/>
+          </span>         
             <p className={`text ${styles.text}`}>{textObject[1].text}</p>
           </div>
           <div className={styles.adnImgTxt}>
-            <Image className={styles.adnImage} src={textObject[2].image} width={200} height={100} alt='adn image'/>
+          <span className={styles.imageContainer}>
+            <Image className={styles.adnImage} fill src={textObject[2].image} alt='adn image'/>
+          </span>         
             <p className={`text ${styles.text}`}>{textObject[2].text}</p>
           </div>
           <div className={styles.adnImgTxt}>
-            <Image className={styles.adnImage} src={textObject[3].image} width={200} height={100} alt='adn image'/>
+          <span className={styles.imageContainer}>
+            <Image className={styles.adnImage} fill src={textObject[3].image} alt='adn image'/>
+          </span>         
             <p className={`text ${styles.text}`}>{textObject[3].text}</p>
           </div>
           <div className={styles.adnImgTxt}>
-            <Image className={styles.adnImage} src={textObject[4].image} width={200} height={100} alt='adn image'/>
+          <span className={styles.imageContainer}>
+            <Image className={styles.adnImage} fill src={textObject[4].image} alt='adn image'/>
+          </span>         
             <p className={`text ${styles.text}`}>{textObject[4].text}</p>
           </div>
         </div>
