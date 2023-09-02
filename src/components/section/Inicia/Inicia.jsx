@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Logo from '../../../../public/images/WINTEK-LOGO-crop.png';
 import ImagenInicia from '../../../../public/images/iniciaImage.jpg';
 import texts from '../../../config/iniciaTexts.json'
-import FormInicia from '../Inicia/formInicia';
+import FormInicia from '../Inicia/FormInicia';
 
 function Inicia() {
   const textObject = texts;
