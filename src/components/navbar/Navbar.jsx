@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
 import Brand from '../../../public/images/logoNavbar.png';
-import languageButton from '../../../public/images/wintek-language-2.png';
+// import languageButton from '../../../public/images/wintek-language-2.png';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 
