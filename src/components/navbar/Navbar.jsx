@@ -1,30 +1,23 @@
 import styles from './Navbar.module.css';
-import { Button } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
-import Brand from '../../../public/images/logoNavbar.png';
-// import languageButton from '../../../public/images/wintek-language-2.png';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-
+import Logo from '../../../public/images/WINTEK-LOGO-crop.png';;
+import { Navbar, Nav } from 'react-bootstrap';
 
 function NavWintek() {
   return (
-    <>
-    <div className={styles.container}>
-      
-      <Navbar bg="light" data-bs-theme="light">
-      <Link className={styles.brand} href="/">
-          <Image  className= {styles.navbarLogo}src={Brand} alt="logo empresa" width={220} height={60} />
+      <Navbar className={styles.container} bg="light" data-bs-theme="light">
+      <Link href="/">
+          <Image  className= {styles.navbarLogo}src={Logo} alt="logo empresa" width={220} height={60} />
       </Link>
-      <Nav className="me-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav className={styles.options}>
+        <Nav.Link href="#inicio">Inicio</Nav.Link>
+        <Nav.Link href="#avancemos">Avancemos juntos</Nav.Link>
+        <Nav.Link href="#adnWintek">ADN Wintek</Nav.Link>
+        <Nav.Link href="#iniciaCamino">¿Que hacemos?</Nav.Link>
+        <Nav.Link href="#adnwintek">Solicita información</Nav.Link>
       </Nav>
       </Navbar>
-      
-    </div>
-    </>
   )
 }
 

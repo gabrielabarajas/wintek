@@ -1,31 +1,32 @@
 .containerSection{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    margin:1.4rem;
-  }
-  .cardsSection{
-    display: flex;
-  }
-  .title{
-    color: #545454;
-    display:flex;
-    margin:2rem;
-  }
-  .text{
-    color: #545454;
-  }
-
-  
-  @media only screen and (max-width : 900px) {
-      .title{
-        font-size: 2rem;
-      }
-      .text{
-        font-size: 1.2rem;
-      }
-      .image {
-        width: 320px;
-        height: 220px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-top: 6rem;
+  margin:1.4rem;
+  height:60vh;
+}
+.cardsSection{
+  display: flex;
+}
+.title{
+  color: #b76ff0;
+  display:flex;
+  margin-top:8rem;
+  margin-left:2rem;
+}
+.text{
+  color: #545454;
+}
+@media only screen and (max-width : 900px) {
+    .title{
+      font-size: 2rem;
     }
+    .text{
+      font-size: 1.2rem;
+    }
+    .image {
+      width: 320px;
+      height: 220px;
   }
+}

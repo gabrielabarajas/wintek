@@ -1,7 +1,6 @@
 import styles from './AdnWintek.module.css'
 import Image from 'next/image';
 import imageAdnWintek from '../../../../public/images/imageAdnWintek.jpg';
-import Logo from '../../../../public/images/WINTEK-LOGO-crop.png';
 import texts from '../../../config/adnWintekTexts.json';
 import React from 'react';
 
@@ -12,11 +11,10 @@ function AdnWintek() {
     <>
     <p className={`title ${styles.title}`}>{textObject[0].title}</p>
     <div className={styles.containerSection}>
-
         <div className={styles.imagesSection}>
           <Image className={styles.image} src={imageAdnWintek} width={"auto"} height={"auto"} alt='image for the section'/>
-          <Image className={styles.logo} src={Logo} width={400} height={200} alt='adn image'/>
         </div>
+
         <div className={styles.textSection}>
           <div className={styles.adnImgTxt}>
           <span className={styles.imageContainer}>
