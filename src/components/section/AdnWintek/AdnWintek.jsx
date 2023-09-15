@@ -9,9 +9,9 @@ function AdnWintek() {
   
   return (
     <div id='adnWintek'>
-    <p className={`title ${styles.title}`}>{textObject[0].title}</p>
     <div className={styles.containerSection}>
         <div className={styles.imagesSection}>
+        <p className={`title ${styles.title}`}>{textObject[0].title}</p>
           <Image className={styles.image} src={imageAdnWintek} width={"auto"} height={"auto"} alt='image for the section'/>
         </div>
 

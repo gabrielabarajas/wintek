@@ -1,83 +1,84 @@
 .containerSection{
     display: flex;
-    align-items:center;
-    justify-content: center;
-    margin-top: 6rem;
     margin:1.4rem;
-    height:60vh;
-  }
-  .title{
-    color: #b76ff0;
-    display:flex;
-    margin-top:8rem;
-    margin-left:2rem;
-  }
-  .text{
-    color: #545454;
-    font-size: 22px;
-  }
-  .imagesSection{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  .image {
-    width:30rem;
-    height:32rem;
-    padding: 2rem;
-  }
-  .imagesSection{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  .imageContainer {
-    width: 80px;
-    height: 75px;
-    position: relative;
-  }
-  .textSection{
-    width: 50%;
-    margin: 1rem;
-  }
-  .adnImage{
-    width:100px;
-    height: 40px;
-    object-fit: contain;
-  }
-  .adnImgTxt{
-    display: flex;
-  }
-  .line{
-    border-bottom: 2px solid #ccc;
-    display: block;
-  }
-  
-  @media only screen and (max-width : 900px) {
-    .title{
-      font-size: 2rem;
-    }
-    .text{
-      font-size: 1.2rem;
-    }
-    .imagesSection{
-      width: 100%;
-    }
-    .image {
-      width: 100%;
-      height: 825px;
-    }
-    .logo{
-      margin-top:10px;
-      width:100px;
-      height: 35px;
-    }
-    .containerSection{
-      flex-direction: column;
-      align-items: center;
-    }
-    .textSection{
-      margin-top: 1rem;
-    }
-  }
+}
+.title{
+  color: #b76ff0;
+  display:flex;
+  margin-top:8rem;
+}
+.text{
+  color: #545454;
+  font-size: 1.4rem;
+  display:flex;
+  align-content: flex-start;
+  text-align: left;
+  padding-left: 1rem;
+}
+.textSection{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 2rem;
+}
+.imagesSection{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image {
+  width:100%;
+  height:100%;
+}
+.imageContainer {
+  width: 80px;
+  height: 75px;
+  position: relative;
+}
+.adnImage{
+  width:100px;
+  height: 40px;
+  object-fit: contain;
+}
+.adnImgTxt{
+  display: flex;
+  margin: 1rem;
+}
+.line{
+  border-bottom: 2px solid #ccc;
+  display: block;
+}
+
+@media only screen and (max-width : 900px) {
+.title{
+  font-size: 2rem;
+}
+.text{
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+.imagesSection{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width:50vw;
+  height: 80%;
+  padding: 2rem;
+}
+.containerSection{
+  flex-direction: column;
+  align-items: center;
+}
+.textSection{
+  margin-top: 1rem;
+}
+.adnImgTxt{
+  width: 100%;
+}
+}
