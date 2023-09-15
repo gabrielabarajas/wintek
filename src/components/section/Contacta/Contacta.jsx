@@ -3,7 +3,11 @@ import styles from './Contacta.module.css'
 
 function Contacta() {
   return (
-    <div>Contacta</div>
+    <div id='contacta'>
+    
+    Contacta
+    
+    </div>
   )
 }
 

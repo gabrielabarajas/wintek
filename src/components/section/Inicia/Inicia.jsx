@@ -11,7 +11,7 @@ function Inicia() {
   createContact(data)
   }
   return (
-    <div id="inicia">
+    <div id="iniciaCamino">
       <p className={`title ${styles.title}`}>{textObject[0].title}</p>
       <p className={`title ${styles.subtitle}`}>{textObject[0].textOne}</p>
       <p className={`title ${styles.text}`}>{textObject[0].textTwo}</p>

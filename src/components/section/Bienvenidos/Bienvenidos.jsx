@@ -2,19 +2,19 @@ import Image from 'next/image';
 import MainImage from '../../../../public/images/MainImage.jpg';
 import styles from './Bienvenidos.module.css';
 
-function SectionInit() {
+function Bienvenidos() {
   return (
-    <>
-    <div className={styles.containerSection}>
+    <div id='bienvenidos' className={styles.containerSection}>
+
       <div className={styles.textSection}>
-          <p className={styles.title}>EXPERIENCIA</p> 
-          <p className={styles.title}>TECNOLOGIA</p> 
-          <p className={styles.title}>LIDERAZGO</p> 
+          <p className={styles.title}>EXPERIENCIA</p>
+          <p className={styles.title}>TECNOLOGIA</p>
+          <p className={styles.title}>LIDERAZGO</p>
       </div>
-      <Image data-aos="fade-right" data-aos-mirror="true" className={styles.image + ' aos-item'} src={MainImage} width={800} height={400} alt='image for the section'/>
+      <div className={styles.imagesSection}>
+          <Image data-aos="fade-right" data-aos-mirror="true" className={styles.image + ' aos-item'} src={MainImage} width={'auto'} height={'auto'} alt='image for the section'/>
+      </div>
     </div>
-    </>
-      
   );
 }
-export default SectionInit;
+export default Bienvenidos;

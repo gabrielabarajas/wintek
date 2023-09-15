@@ -12,19 +12,21 @@ function NavWintek() {
   }
 
   return (
+    <>
       <Navbar className={styles.container} bg="light" data-bs-theme="light">
       <Link href="/">
           <Image  className= {styles.navbarLogo}src={Logo} alt="logo empresa" width={220} height={60} />
       </Link>
       <Nav className={styles.options}>
-        <Nav.Link href="#inicio" >Inicio</Nav.Link>
-        <Nav.Link href="#avancemos">Avancemos juntos</Nav.Link>
-        <Nav.Link href="#adnWintek">ADN Wintek</Nav.Link>
-        <Nav.Link href="#iniciaCamino" onClick={() => scrollTo('#inicia')}>¿Que hacemos?</Nav.Link>
-        <Nav.Link href="#adnwintek">Solicita información</Nav.Link>
-        <Nav.Link href="#adnwintek">Contáctanos</Nav.Link>
+        <Nav.Link href="#inicio" onClick={() => scrollTo('#bienvenidos')}>Inicio</Nav.Link>
+        <Nav.Link href="#avancemos" onClick={() => scrollTo('#avancemos')}>Avancemos juntos</Nav.Link>
+        <Nav.Link href="#adnWintek" onClick={() => scrollTo('#adnWintek')}>ADN Wintek</Nav.Link>
+        <Nav.Link href="#" onClick={() => scrollTo('#transformamos')}>¿Que hacemos?</Nav.Link>
+        <Nav.Link href="#iniciaCamino" onClick={() => scrollTo('#iniciaCamino')}>Solicita información</Nav.Link>
+        <Nav.Link href="#contactanos" onClick={() => scrollTo('#contacta')}>Contáctanos</Nav.Link>
       </Nav>
       </Navbar>
+    </>
   )
 }
 

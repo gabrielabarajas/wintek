@@ -8,7 +8,7 @@ function AdnWintek() {
   const textObject = texts;
   
   return (
-    <>
+    <div id='adnWintek'>
     <p className={`title ${styles.title}`}>{textObject[0].title}</p>
     <div className={styles.containerSection}>
         <div className={styles.imagesSection}>
@@ -49,7 +49,7 @@ function AdnWintek() {
           </div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

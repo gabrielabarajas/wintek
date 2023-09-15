@@ -2,7 +2,7 @@
 import sections from '../config/sections.json';}*/}
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/footer/Footer';
-import SectionInit from '../components/section/Bienvenidos/Bienvenidos';
+import Bienvenidos from '../components/section/Bienvenidos/Bienvenidos';
 import Avancemos from '../components/section/Avancemos/Avancemos';
 import Transformamos from '../components/section/Transformamos/Transformamos';
 import AdnWintek from '../components/section/AdnWintek/AdnWintek';
@@ -13,11 +13,9 @@ import Navbar from '../components/navbar/Navbar'
 
 function Home() {
   return (
-    <>
-      <div className="content">
-        {/*{sections.map((section, index) => <Section key={index} {...section} />)}*/}
+      <>
         <Navbar/>
-        <SectionInit/>
+        <Bienvenidos/>
         <Avancemos/>
         <AdnWintek/>
         <Transformamos/>
@@ -25,8 +23,7 @@ function Home() {
         <Vive/>
         <Contacta/>
         <Footer/>
-      </div>
-    </>
+      </>
   )
 }
 

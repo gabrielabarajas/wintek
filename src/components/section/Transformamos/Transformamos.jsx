@@ -7,7 +7,7 @@ function Transformamos() {
   const textObject =texts;
   console.log(textObject);
   return (
-    <>
+    <div id='transformamos'>
     <p className={`title ${styles.title}`}>{textObject[0].title}</p>
     <div className={styles.containerSection}>
       <div className={styles.cardsSection}>
@@ -16,7 +16,7 @@ function Transformamos() {
         }
       </div>
       </div>
-    </>
+    </div>
   )
 }
 
