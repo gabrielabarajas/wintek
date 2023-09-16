@@ -1,5 +1,5 @@
 import Footer from "../../components/footer/Footer";
-import NavWintek from "../../components/navbar/Navbar";
+import NavWintek from "../../components/navbar/NavbarMenu";
 import styles from './article.module.css'
 import { getArticle, getSlugs } from '../../utils/services';
 import { Body } from '../../utils/cms'
