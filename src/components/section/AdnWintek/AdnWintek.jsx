@@ -12,7 +12,7 @@ function AdnWintek() {
     <div className={styles.containerSection}>
         <div className={styles.imagesSection}>
         <p className={`title ${styles.title}`}>{textObject[0].title}</p>
-          <Image className={styles.image} src={imageAdnWintek} width={"auto"} height={"auto"} alt='image for the section'/>
+          <Image data-aos="fade-left" className={styles.image}  src={imageAdnWintek} width={"auto"} height={"auto"} alt='image for the section'/>
         </div>
 
         <div className={styles.textSection}>

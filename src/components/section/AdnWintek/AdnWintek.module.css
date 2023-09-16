@@ -5,11 +5,9 @@
 .title{
   color: #b76ff0;
   display:flex;
-  margin-top:8rem;
 }
 .text{
   color: #545454;
-  font-size: 1.4rem;
   display:flex;
   align-content: flex-start;
   text-align: left;

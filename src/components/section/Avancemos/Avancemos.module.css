@@ -8,31 +8,23 @@
   margin-top:8rem;
 }
 .textSection{
-  width: 50vw;
+  width: 50%;
   margin:2rem;
 }
 .text{
   color: #545454;
-  font-size: 1.4rem;
   display:flex;
   align-content: flex-start;
 }
 .imagesSection{
-  width: 50vw;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
 .image {
   width:100%;
   height:100%;
-
 }
-.logo{
-  margin: 1rem;
-  width:150px;
-  height: 50px;
-}
-  
   @media only screen and (max-width : 900px) {
     .title{
       font-size: 2rem;
@@ -47,8 +39,8 @@
       align-items: flex-end;
     }
     .image {
-      width:50vw;
-      height: 80%;
+      width:50%;
+      height: 100%;
       padding: 2rem;
     }
     .containerSection{
