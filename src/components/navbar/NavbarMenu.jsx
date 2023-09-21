@@ -14,7 +14,7 @@ function NavbarMenu() {
 
   return (
     <>
-      {['sm'].map((expand) => (
+      {['lg'].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container fluid>
           <Image  className= {styles.navbarLogo}src={Logo} alt="logo empresa" width={220} height={60} />
@@ -36,6 +36,7 @@ function NavbarMenu() {
                 <Nav.Link href="#adnWintek" onClick={() => scrollTo('#adnWintek')}>ADN Wintek</Nav.Link>
                 <Nav.Link href="#" onClick={() => scrollTo('#transformamos')}>¿Que hacemos?</Nav.Link>
                 <Nav.Link href="#iniciaCamino" onClick={() => scrollTo('#iniciaCamino')}>Solicita información</Nav.Link>
+                <Nav.Link href="#contactanos" onClick={() => scrollTo('#compartimos')}>Blog</Nav.Link>
                 <Nav.Link href="#contactanos" onClick={() => scrollTo('#contacta')}>Contáctanos</Nav.Link>
                 </Nav>
               </Offcanvas.Body>

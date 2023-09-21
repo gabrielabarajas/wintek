@@ -12,16 +12,16 @@ function Inicia() {
   }
   return (
     <div id="iniciaCamino">
-      <p className={`title`}>{textObject[0].title}</p>
-      <p className={`title ${styles.subtitle}`}>{textObject[0].textOne}</p>
-      <p className={`title ${styles.text}`}>{textObject[0].textTwo}</p>
       <div className={styles.containerSection}>
-          <div className={styles.imagesSection}>
-              <Image data-aos="fade-right" className={styles.image} src={ImagenInicia} width={400} height={200} alt='image'/>
-          </div>
-          <div className={styles.textSection}>
-            <FormInicia onSubmit={onSubmit}/>
-          </div>
+        <div className={styles.imagesSection}>
+            <Image data-aos="fade-right" className={styles.image} src={ImagenInicia} width={400} height={200} alt='image'/>
+        </div>
+        <div className={styles.textSection}>
+          <p align="center" className={`title`}>{textObject[0].title}</p>
+          <p className={`title ${styles.subtitle}`}>{textObject[0].textOne}</p>
+          <p className={`title ${styles.text}`}>{textObject[0].textTwo}</p>
+          <FormInicia onSubmit={onSubmit}/>
+        </div>
       </div>
     </div>
   )

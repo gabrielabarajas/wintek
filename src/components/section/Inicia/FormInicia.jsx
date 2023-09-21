@@ -54,7 +54,8 @@ function FormInicia({onSubmit}) {
           <Form.Control
             required
             name="message"
-            type="text"
+            type="message"
+            as="textarea" rows={6}
             placeholder="Mensaje sobre el servicio de interés"
           />
           <Form.Control.Feedback>Dato Correcto!</Form.Control.Feedback>
@@ -68,7 +69,7 @@ function FormInicia({onSubmit}) {
           feedbackType="invalid"
         />
       </Form.Group>
-      <Button type="submit">Submit form</Button>
+      <Button type="submit">Enviar</Button>
     </Form>
   );
 }

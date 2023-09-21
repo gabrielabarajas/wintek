@@ -12,10 +12,9 @@
     justify-content: flex-end;
 }
 .navbarLogo{
-    width: 140px; 
-    height: 40px; 
+    width: 140px;
+    height: 40px;
 }
-  
 @media only screen and (max-width : 900px) {
     .container{
         display: flex;

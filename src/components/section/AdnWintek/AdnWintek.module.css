@@ -1,6 +1,6 @@
 .containerSection{
-    display: flex;
-    margin:1.4rem;
+  display: flex;
+  padding:1.4rem;
 }
 .title{
   color: #b76ff0;
@@ -26,10 +26,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 .image {
-  width:100%;
-  height:100%;
+  width:80%;
+  height: 80%;
+  padding: 2rem;
 }
 .imageContainer {
   width: 80px;
@@ -68,7 +71,9 @@
   flex-direction: column;
   align-items: center;
 }
-
+.image {
+  padding: 0;
+}
 .textSection{
   width: 100%;
   margin-top: 1rem;
