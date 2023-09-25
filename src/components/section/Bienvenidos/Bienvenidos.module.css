@@ -1,9 +1,9 @@
 .containerSection{
   display: flex;
-  flex-direction: column;
-  align-items:center;
   justify-content: center;
-  padding:1.4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background: linear-gradient(45deg,#97ffb7,#b76ff0);
   }
 .textSection{
   width: 80%;

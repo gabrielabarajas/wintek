@@ -1,19 +1,18 @@
-import Image from 'next/image';
-import MainImage from '../../../../public/images/MainImage.png';
 import styles from './Bienvenidos.module.css';
+import objects from '../../../config/transformamosTexts.json';
+import WelcomeCard from '../../card/WelcomeCard'
+
 
 function Bienvenidos() {
+  const infoObjects = objects;
   return (
-    <div id='bienvenidos' className={styles.containerSection}>
-      <div className={styles.textSection}>
-          <p align="center" className={`title`}>MEJORAMOS TU EXPERIENCIA SAP</p>
-          <p align="center" className={`title`}>CON LOS CONOCIMIENTOS</p>
-          <p align="center" className={`title`}> DE NUESTROS EXPERTOS</p>
-      </div>
-      <div className={styles.imagesSection}>
-          <Image data-aos="fade-right" data-aos-mirror="true" className={styles.image + ' aos-item'} src={MainImage} width={'auto'} height={'auto'} alt='image for the section'/>
-      </div>
+    <div className={styles.containerSection} id="bienvenidos" >
+       <WelcomeCard text={infoObjects[0].text} image={infoObjects[0].image}/>
+       <WelcomeCard text={infoObjects[1].text} image={infoObjects[1].image}/>
+       <WelcomeCard text={infoObjects[2].text} image={infoObjects[2].image}/>
+       <WelcomeCard text={infoObjects[3].text} image={infoObjects[3].image}/>
     </div>
+  
   );
 }
 export default Bienvenidos;

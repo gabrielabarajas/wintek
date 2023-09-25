@@ -6,7 +6,7 @@ import styles from "./Conocimiento.module.css";
 function Conocimiento({articles}) {
     return (
     <div id="compartimos">
-            <div className={styles.containerSection}>
+        <div className={styles.containerSection}>
             <p className={`title`}>COMPARTIMOS CONOCIMIENTO</p>
             <Container>
             <Row>
@@ -16,7 +16,6 @@ function Conocimiento({articles}) {
             </Row>
             </Container>
         </div>
-        
     </div>
     )
 }
