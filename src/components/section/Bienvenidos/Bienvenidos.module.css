@@ -1,34 +1,18 @@
 .containerSection{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background: linear-gradient(45deg,#97ffb7,#b76ff0);
+  background: linear-gradient(#b76ff0, #97ffb7);
   }
-.textSection{
-  width: 80%;
-  display: flex;
-	flex-direction: column;
-	align-items: center;
+.containerCards{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .title{
-  font-size: 3rem;
-  font-family: "Everett";
-  font-weight:400;
-  color:#545454;
-  display: flex;
-  align-items: center;
-}
-.imagesSection{
-  width: 50%;
-  display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.image {
-  width:80%;
-  height: 80%;
-  padding: 2rem;
+  color: var(--greenOne);
 }
 @media only screen and (max-width : 900px) {
   .containerSection{
