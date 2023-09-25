@@ -17,7 +17,7 @@ function Inicia() {
             <Image data-aos="fade-right" className={styles.image} src={ImagenInicia} width={400} height={200} alt='image'/>
         </div>
         <div className={styles.textSection}>
-          <p align="center" className={`title`}>{textObject[0].title}</p>
+          <p align="center" className={`title ${styles.title}`}>{textObject[0].title}</p>
           <p className={`title ${styles.subtitle}`}>{textObject[0].textOne}</p>
           <p className={`title ${styles.text}`}>{textObject[0].textTwo}</p>
           <FormInicia onSubmit={onSubmit}/>

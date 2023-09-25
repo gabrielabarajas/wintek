@@ -7,7 +7,7 @@ function Conocimiento({articles}) {
     return (
     <div id="compartimos">
         <div className={styles.containerSection}>
-            <p className={`title`}>COMPARTIMOS CONOCIMIENTO</p>
+            <p className={`title ${styles.title}`}>COMPARTIMOS CONOCIMIENTO</p>
             <Container>
             <Row>
             {
