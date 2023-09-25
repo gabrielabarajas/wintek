@@ -39,8 +39,8 @@
   position: relative;
 }
 .adnImage{
-  width:100px;
-  height: 40px;
+  width:80px;
+  height: 80px;
   object-fit: contain;
 }
 .adnImgTxt{
