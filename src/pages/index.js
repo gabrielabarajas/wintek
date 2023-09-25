@@ -6,6 +6,7 @@ import AdnWintek from '../components/section/AdnWintek/AdnWintek';
 import Inicia from '../components/section/Inicia/Inicia';
 import Conocimiento from '../components/section/Conocimiento/Conocimiento.jsx';
 import NavbarMenu from '../components/navbar/NavbarMenu';
+import Footer from '@/components/footer/Footer';
 
 function Home({articles}) {
   return (
@@ -16,6 +17,7 @@ function Home({articles}) {
         <Avancemos/>
         <Inicia/>
         <Conocimiento articles={articles}/>
+        <Footer/>
       </>
   )
 }

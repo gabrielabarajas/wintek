@@ -2,6 +2,9 @@
     display:flex;
     justify-content: space-between;
     margin: 1rem;
+    width: 100%;
+    min-height: 40vh;
+    background-color: black;
 }
 .containerContacto{
   display: flex;
@@ -9,17 +12,9 @@
   align-items: center;
   justify-content: center;
 }
-.adress{
-    width:30%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.textHeading {
-    color: #320093;
-    font-size: 1rem;
-    justify-content: center;
+.logoW{
+    width: 2rem;
+    heigth: 2rem;
 }
 .textLine{
     color: #6700ff;

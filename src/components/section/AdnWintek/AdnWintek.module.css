@@ -10,7 +10,6 @@
 .text{
   color: #545454;
   display:flex;
-  align-content: flex-start;
   text-align: left;
   padding-left: 1rem;
 }
@@ -20,7 +19,7 @@
   justify-content:center;
   flex-wrap: wrap;
   width: 50%;
-  margin: 2rem;
+  margin: 1rem;
 }
 .imagesSection{
   width: 50%;
@@ -33,7 +32,6 @@
 .image {
   width:80%;
   height: 80%;
-  padding: 2rem;
 }
 .imageContainer {
   width: 80px;
@@ -47,7 +45,6 @@
 }
 .adnImgTxt{
   display: flex;
-  margin: 1rem;
 }
 .line{
   border-bottom: 2px solid #ccc;

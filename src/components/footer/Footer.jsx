@@ -1,6 +1,7 @@
 import styles from './Footer.module.css';
 import Image from 'next/image'
 import { Navbar } from 'react-bootstrap';
+import logoImage from '../../../public/images/wWinte.png';
 import fbImage from '../../../public/images/fb-icono.png';
 import lnImage from '../../../public/images/in-icono.png';
 import inImage from '../../../public/images/Insta-icono.png';
@@ -9,14 +10,9 @@ function Footer() {
   return (
     <>
     <div className={styles.container}>
-
-      <div className={styles.adress}>
-        <p className={`title ${styles.textHeading}`}>Wintek Consulting Group</p>
-        <p className={`text ${styles.textLine}`}>Provenza 310</p>
-        <p className={`text ${styles.textLine}`}>Barcelona, España</p>
-        <p className={`text ${styles.textLine}`}>08037</p>
+      <div className={styles.logoW}>
+        <Image src={logoImage} alt="logo image" width={"80"} height={"80"} />
       </div>
-
       <div className={styles.containerContacto}>
         <p className={styles.textLine}>info@wintek.consulting</p>
         <div className={styles.logosSocial}>
