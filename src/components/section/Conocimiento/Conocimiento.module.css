@@ -2,7 +2,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding:1.4rem;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
   }
   .title{
     color: #b76ff0;

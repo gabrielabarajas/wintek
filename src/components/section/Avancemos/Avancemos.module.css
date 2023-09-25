@@ -1,6 +1,7 @@
 .containerSection{
   display: flex;
-  padding:1.4rem;
+  width: 100%;
+  min-height: 100vh;
 }
 .title{
   color: #b76ff0;
