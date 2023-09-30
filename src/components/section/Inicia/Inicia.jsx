@@ -25,5 +25,4 @@ function Inicia() {
     </div>
   )
 }
-
 export default Inicia

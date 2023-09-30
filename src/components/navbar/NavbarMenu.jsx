@@ -8,8 +8,8 @@ import styles from './Navbar.module.css';
 
 function NavbarMenu() {
   const scrollTo = (selector) => {
-    const element = document.querySelector(selector);
-    element.scrollIntoView({ behavior: 'smooth' });
+    const { offsetTop } = document.querySelector(selector);
+    window.scrollTo({ top: offsetTop - 56, behavior: 'smooth' });
   }
 
   return (
@@ -33,15 +33,15 @@ function NavbarMenu() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#inicio" onClick={() => scrollTo('#bienvenidos')}>Inicio</Nav.Link>
+                <Nav.Link onClick={() => scrollTo('#bienvenidos')}>Inicio</Nav.Link>
 
-                <Nav.Link href="#adnWintek" onClick={() => scrollTo('#adnWintek')}>ADN Wintek</Nav.Link>
+                <Nav.Link onClick={() => scrollTo('#adnWintek')}>ADN Wintek</Nav.Link>
 
-                <Nav.Link href="#avancemos" onClick={() => scrollTo('#avancemos')}>Avancemos Juntos</Nav.Link>
+                <Nav.Link onClick={() => scrollTo('#avancemos')}>Avancemos Juntos</Nav.Link>
 
-                <Nav.Link href="#iniciaCamino" onClick={() => scrollTo('#iniciaCamino')}>Solicita Información</Nav.Link>
+                <Nav.Link onClick={() => scrollTo('#iniciaCamino')}>Solicita Información</Nav.Link>
 
-                <Nav.Link href="#contactanos" onClick={() => scrollTo('#compartimos')}>Blog</Nav.Link>
+                <Nav.Link onClick={() => scrollTo('#compartimos')}>Blog</Nav.Link>
 
                 </Nav>
               </Offcanvas.Body>

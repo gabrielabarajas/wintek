@@ -11,12 +11,16 @@ import Footer from '@/components/footer/Footer';
 function Home({articles}) {
   return (
       <>
-        <NavbarMenu/>
-        <Bienvenidos/>
-        <AdnWintek/>
-        <Avancemos/>
-        <Inicia/>
-        <Conocimiento articles={articles}/>
+        <header>
+          <NavbarMenu/>
+        </header>
+        <main>
+          <Bienvenidos/>
+          <AdnWintek/>
+          <Avancemos/>
+          <Inicia/>
+          <Conocimiento articles={articles}/>
+        </main> 
         <Footer/>
       </>
   )

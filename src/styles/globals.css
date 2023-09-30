@@ -47,6 +47,10 @@ body{
   font-family: "Everett";
   font-weight:400;
 }
+
+main {
+  margin-top: 60px;
+}
 .container {
   display:flex;
   flex-direction:column;

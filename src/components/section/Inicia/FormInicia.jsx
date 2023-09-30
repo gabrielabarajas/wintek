@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
+import styles from './FormInicia.module.css';
+import { Button } from 'react-bootstrap';
 
 function FormInicia({onSubmit}) {
   const [validated, setValidated] = useState(false);
@@ -69,7 +68,7 @@ function FormInicia({onSubmit}) {
           feedbackType="invalid"
         />
       </Form.Group>
-      <Button type="submit">Enviar</Button>
+      <Button className={styles.iniciaBtn} type="submit">Enviar</Button>
     </Form>
   );
 }

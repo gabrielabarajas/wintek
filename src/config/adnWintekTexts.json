@@ -1,27 +1,27 @@
-[
-    {
-        "title": "ADN WINTEK",
-        "image": "/images/adn1.png",
-        "text": "Garantizar la cercanía y seguimiento con nuestros clientes"
+{
+    "featured": {
+        "title": "ADN WINTEK"
     },
-    {
-        "title": "ADN WINTEK",
-        "image": "/images/adn2.png",
-        "text": "Fusionar la mejor gestión técnica y del equipo."
-    },
-    {
-        "title": "ADN WINTEK",
-        "image": "/images/adn3.png",
-        "text": "Escuchar activamente a cada uno de nuestros clientes."
-    },
-    {
-        "title": "ADN WINTEK",
-        "image": "/images/adn4.png",
-        "text": "Compartir nuestra experiencia en diferentes industrias y paises."
-    },
-    {
-        "title": "ADN WINTEK",
-        "image": "/images/adn5.png",
-        "text": "Evolucionar y crecer de la mano de las empresas que asesoramos, para mantenernos a la vanguardia."
-    }
-]
+    "items": [
+        {
+            "image": "/images/adn1.png",
+            "text": "Garantizar la cercanía y seguimiento con nuestros clientes"
+        },
+        {
+            "image": "/images/adn2.png",
+            "text": "Fusionar la mejor gestión técnica y del equipo."
+        },
+        {
+            "image": "/images/adn3.png",
+            "text": "Escuchar activamente a cada uno de nuestros clientes."
+        },
+        {
+            "image": "/images/adn4.png",
+            "text": "Compartir nuestra experiencia en diferentes industrias y paises."
+        },
+        {
+            "image": "/images/adn5.png",
+            "text": "Evolucionar y crecer de la mano de las empresas que asesoramos, para mantenernos a la vanguardia."
+        }
+    ]
+}

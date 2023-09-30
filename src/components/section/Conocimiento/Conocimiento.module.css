@@ -10,29 +10,16 @@
   .title{
     color: #b76ff0;
     display:flex;
-    margin-top:8rem;
   }
   .textSection{
     width: 50%;
-    margin:2rem;
   }
   .text{
     color: #545454;
     display:flex;
     align-content: flex-start;
   }
-  .imagesSection{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-  }
-  .image {
-    width:80%;
-    height: 80%;
-    padding: 2rem;
-  }
+
   @media only screen and (max-width : 900px) {
   .title{
     font-size: 2rem;

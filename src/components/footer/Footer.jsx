@@ -9,7 +9,7 @@ import inImage from '../../../public/images/instagram.png';
 function Footer() {
   return (
     <>
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <div className={styles.logoW}>
         <Image src={logoImage} alt="logo image" width={"80"} height={"80"} />
       </div>
@@ -28,7 +28,7 @@ function Footer() {
           </Navbar.Brand>
         </div>
       </div>
-    </div>
+    </footer>
     </>
   )
 }
