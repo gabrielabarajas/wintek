@@ -14,8 +14,6 @@ function Footer() {
         <Image src={logoImage} alt="logo image" width={"80"} height={"80"} />
       </div>
       <p className={styles.text}>info@wintek.consulting</p>
-      <div className={styles.containerContacto}>
-        
         <div className={styles.logosSocial}>
           <Navbar.Brand href="https://www.linkedin.com/">
             <Image className={styles.iconSocial} src={lnImage} alt="logo linkedin" width={40} height={40} />
@@ -27,7 +25,6 @@ function Footer() {
             <Image className={styles.iconSocial} src={inImage} alt="logo instagram" width={40} height={40}/>
           </Navbar.Brand>
         </div>
-      </div>
     </footer>
     </>
   )

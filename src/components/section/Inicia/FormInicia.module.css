@@ -1,4 +1,5 @@
 .iniciaBtn{
     background-color: var(--lightPurpleW) !important;
-    border: none; 
+    border: none;
+    width: 10rem;
 }

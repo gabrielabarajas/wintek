@@ -19,14 +19,21 @@
   color: #545454;
 }
 @media only screen and (max-width : 900px) {
-    .title{
-      font-size: 2rem;
-    }
-    .text{
-      font-size: 1.2rem;
-    }
-    .image {
-      width: 320px;
-      height: 220px;
+  .containerSection{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardsSection{
+    flex-direction: column;
+  }
+  .title{
+     font-size: 2rem;
+  }
+  .text{
+    font-size: 1.2rem;
+  }
+  .image {
+    width: 320px;
+    height: 220px;
   }
 }
